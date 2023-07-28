@@ -1,0 +1,87 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: whitesmoke; 
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.main {
+    margin: 50px 50px 0 50px;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    display: block;
+}
+
+.logo {
+    width: 300px;
+    border-radius: 28%;
+    text-align: justify;
+    margin-left: 40%;
+    
+}
+
+.images 
+{
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.card {
+    width: 45%;
+}
+
+.creative {
+    color: orangered;
+}
+
+.imagine {
+    color: rgb(60, 177, 24);
+}
+
+.create {
+    color: blue;
+}
+
+.rightfooter {
+    float: right;
+    color: orangered;
+}
+
+@media (max-width:680px) {
+    .logo {
+        width: 150px;
+      
+    }
+
+    .h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+}
